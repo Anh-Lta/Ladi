@@ -148,9 +148,18 @@ img {
     backdrop-filter: blur(5px);
     border-radius: 10px;
 }
-@media (max-width: 426px) {
+@media (max-width: 376px) {
     .container {
         max-width: 343px;
+        margin: 0 16px;
+    }
+    br {
+        display: none;
+    }
+}
+@media (min-width: 376px) and (max-width: 767px) {
+    .container {
+        max-width: 394px;
         margin: 0 16px;
     }
     br {
